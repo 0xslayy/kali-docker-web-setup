@@ -13,7 +13,6 @@ RUN apt-get update && apt-get install -y \
     kali-tools-web \
     kali-tools-exploitation \
     kali-tools-information-gathering \
-    kali-tools-vulnerability-analysis \
     kali-tools-passwords \
     && rm -rf /var/lib/apt/lists/*
 
