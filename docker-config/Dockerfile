@@ -16,14 +16,6 @@ RUN apt-get update && apt-get install -y \
     kali-tools-passwords \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install --no-cache-dir \
-    requests \
-    beautifulsoup4 \
-    flask \
-    scapy \
-    paramiko \
-    pwntools
-
 WORKDIR /root
 
 CMD ["/bin/bash"]
