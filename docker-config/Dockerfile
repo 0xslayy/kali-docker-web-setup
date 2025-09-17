@@ -7,8 +7,6 @@ RUN apt-get update && apt-get install -y \
     net-tools \
     tmux \
     git \
-    python3 \
-    python3-pip \
     golang \
     kali-tools-web \
     kali-tools-exploitation \
